@@ -5,6 +5,10 @@ int main(int argc, char *argv[]){
 
     init_lua_engine();
 
-    lua_engine.script_file(argv[1]);
+    if (argc > 1) {
+        lua_engine.script_file(argv[1]);
+    }
+
+    
 
 }
