@@ -1,4 +1,4 @@
-# honey
+#honey
 portable and lightweight webserver written in c++
 
 ### what is honey?
